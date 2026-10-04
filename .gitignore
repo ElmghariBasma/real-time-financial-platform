@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+
+# Datasets
+data/*.csv
+data/*.parquet
+
+# Spark generated data
+spark-data/
+ivy-cache/
+
+# Spark / Delta checkpoints
+**/checkpoints/
+**/_checkpoints/
+**/_delta_log/
+
+# Logs
+*.log
+
+# Databricks
+.databricks/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
